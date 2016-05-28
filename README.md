@@ -12,7 +12,7 @@ _Enter Config Central._
 ## The DB instance defines your environment
 We have different DB instances for each environment we have deployed. If you don't, please let me know why and how that works.
 
-Our distributed applications have identical [web/app].configs for a given environment. If you don't, centralized configuration isn't for you (for those settings, at least).
+Our distributed applications have load-balanced components with identical [web/app].configs for a given environment. If you don't, centralized configuration isn't for you (for those settings, at least).
 
 So it makes sense to associate those settings with the DB for that instance.
 
